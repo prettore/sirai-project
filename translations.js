@@ -20,6 +20,8 @@ const translations = {
         'about-p2': 'Esses avanços permitem o desenvolvimento de novos modelos de organização da sociedade e negócios, como <strong>Cidades Inteligentes</strong>, <strong>Sistemas de Transporte Inteligentes</strong>, <strong>Indústria 4.0</strong> e aplicações em <strong>Defesa e Segurança</strong>.',
         'central-question': 'Questão Central',
         'central-question-text': '"Como melhorar a qualidade dos dados e explorar o contexto para desenvolver sistemas resilientes em ambientes inteligentes?"',
+        'funding-title': 'Apoio',
+        'funding-description': 'CNPq/MCTI/FNDCT nº 21/2024 – Programa Conhecimento Brasil – Atração e Fixação de Talentos',
         
         // Challenges
         'challenges-title': 'Desafios Emergentes',
@@ -141,6 +143,8 @@ const translations = {
         'about-p2': 'These advances enable the development of new models of social and business organization, such as <strong>Smart Cities</strong>, <strong>Intelligent Transportation Systems</strong>, <strong>Industry 4.0</strong>, and applications in <strong>Defense and Security</strong>.',
         'central-question': 'Central Question',
         'central-question-text': '"How to improve data quality and explore context to develop resilient systems in intelligent environments?"',
+        'funding-title': 'Support',
+        'funding-description': 'CNPq/MCTI/FNDCT Call No. 21/2024 – Knowledge Brazil Program – Talent Attraction and Retention',
         
         // Challenges
         'challenges-title': 'Emerging Challenges',
