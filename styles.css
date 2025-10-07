@@ -885,7 +885,7 @@ html {
 }
 
 .cnpq-logo {
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
     margin-bottom: 1rem;
 }
@@ -898,3 +898,182 @@ html {
     margin: 0 auto;
 }
 
+
+/* Dissemination Card Links */
+.dissemination-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.dissemination-card-link:hover {
+    transform: translateY(-5px);
+}
+
+.dissemination-card {
+    position: relative;
+}
+
+.card-link-arrow {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    transition: transform 0.3s ease;
+}
+
+.dissemination-card-link:hover .card-link-arrow {
+    transform: translateX(5px);
+}
+
+/* Page Hero */
+.page-hero {
+    background: linear-gradient(135deg, var(--primary-color) 0%, #0056b3 100%);
+    color: white;
+    padding: 6rem 0 4rem;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.page-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.page-description {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+/* Activity Items */
+.activity-item {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+}
+
+.activity-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.activity-header h2 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.activity-date {
+    background: var(--lighter-bg);
+    color: var(--text-secondary);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.activity-content p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+/* Activity Photos */
+.activity-photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.photo-placeholder {
+    background: var(--lighter-bg);
+    border: 2px dashed var(--border-color);
+    border-radius: 8px;
+    padding: 3rem 2rem;
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-placeholder p {
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.photo-hint {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+/* Coming Soon Message */
+.coming-soon-message {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: var(--lighter-bg);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+
+.coming-soon-message svg {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.coming-soon-message h2 {
+    color: var(--heading-color);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.coming-soon-message p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Responsive Design for Activity Pages */
+@media (max-width: 768px) {
+    .page-hero {
+        padding: 5rem 0 3rem;
+    }
+
+    .page-title {
+        font-size: 2rem;
+    }
+
+    .page-description {
+        font-size: 1rem;
+    }
+
+    .activity-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .activity-date {
+        align-self: flex-start;
+    }
+
+    .activity-photos {
+        grid-template-columns: 1fr;
+    }
+}
