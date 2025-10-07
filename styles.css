@@ -950,6 +950,12 @@ html {
     opacity: 0.95;
 }
 
+.visit-img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
 /* Activity Items */
 .activity-item {
     background: white;
