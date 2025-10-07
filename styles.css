@@ -928,6 +928,11 @@ html {
     transform: translateX(5px);
 }
 
+.visit-img {
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 1rem;
+}
 /* Page Hero */
 .page-hero {
     background: linear-gradient(135deg, var(--primary-color) 0%, #0056b3 100%);
@@ -948,12 +953,6 @@ html {
     max-width: 800px;
     margin: 0 auto;
     opacity: 0.95;
-}
-
-.visit-img {
-    max-width: 200px;
-    height: auto;
-    margin-bottom: 1rem;
 }
 
 /* Activity Items */
