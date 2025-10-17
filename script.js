@@ -9,7 +9,8 @@ function setLanguage(lang) {
     // Update all elements with data-i18n attribute
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
-        if (translations[lang] && translations[lang][key]) {
+        // Ensure translations object is available
+        if (typeof translations !== 'undefined' && translations[lang] && translations[lang][key]) {
             element.innerHTML = translations[lang][key];
         }
     });
