@@ -120,137 +120,7 @@ const translations = {
         'footer-subtitle-en': 'Resilient Systems for Intelligent Environments',
         'footer-contact': 'Contato',
         'footer-coordinator': 'Coordenador: Dr. Paulo H. L. Rettore',
-        'footer-copyright': '© 2025 SiR.AI Project. Todos os direitos reservados.'
-    },
-    en: {
-        // Navigation
-        'nav-home': 'Home',
-        'nav-about': 'About',
-        'nav-objectives': 'Objectives',
-        'nav-research': 'Research',
-        'nav-team': 'Team',
-        'nav-publications': 'Publications',
-        'nav-dissemination': 'Dissemination',
-        
-        // Hero
-        'hero-subtitle': 'Resilient Systems for Intelligent Environments',
-        'hero-description': 'Addressing Data Quality and Context Awareness',
-        'hero-description-en': 'ReSIE Project',
-        
-        // About
-        'about-title': 'About the Project',
-        'about-p1': 'The <strong>SiR.AI</strong> project (Resilient Systems for Intelligent Environments) emerges in response to emerging challenges in the era of technological convergence. The advancement of communication and processing technologies has driven the emergence of new paradigms that transform society, including the Internet of Things (IoT), Big Data, Cloud Computing, and Artificial Intelligence.',
-        'about-p2': 'These advances enable the development of new models of social and business organization, such as <strong>Smart Cities</strong>, <strong>Intelligent Transportation Systems</strong>, <strong>Industry 4.0</strong>, and applications in <strong>Defense and Security</strong>.',
-        'central-question': 'Central Question',
-        'central-question-text': '"How to improve data quality and explore context to develop resilient systems in intelligent environments?"',
-        'funding-title': 'Support',
-        'funding-description': 'CNPq/MCTI/FNDCT Call No. 21/2024 – Knowledge Brazil Program – Talent Attraction and Retention',
-        
-        // Challenges
-        'challenges-title': 'Emerging Challenges',
-        'challenges-data-title': 'Data Perspective',
-        'challenges-data-1': 'Lack of standardization',
-        'challenges-data-2': 'Quality and reliability issues',
-        'challenges-data-3': 'Limited spatio-temporal coverage',
-        'challenges-systems-title': 'Systems Perspective',
-        'challenges-systems-1': 'Lack of adaptability of solutions to dynamic scenarios',
-        'challenges-systems-2': 'Rigidity in the face of changes',
-        'challenges-systems-3': 'Need for context awareness',
-        
-        // Objectives
-        'objectives-title': 'Objectives',
-        'objective-general-title': 'General Objective',
-        'objective-general-text': 'Support intelligent environments (smart cities and transportation systems, industry 5.0, agriculture, and battlefield), providing mechanisms for:',
-        'objective-general-1': 'Data enrichment',
-        'objective-general-2': 'Context awareness and adaptability for applications, models, and protocols',
-        'objectives-specific-title': 'Specific Objectives',
-        'objective-1': 'Enhance data quality with fusion, statistical, and AI techniques',
-        'objective-2': 'Advance monitoring and context detection in connected devices',
-        'objective-3': 'Develop context-adaptive solutions to optimize resources and decisions',
-        'objective-4': 'Use generative AI to design solutions and support rapid decisions',
-        'objective-5': 'Create intuitive interfaces for data visualization and interpretation',
-        'objective-6': 'Evaluate the accuracy, efficiency, and resource usage of proposed solutions',
-        
-        // Research
-        'research-title': 'Research Topics',
-        'research-area-1-title': 'Mobility Modeling and Analysis',
-        'research-area-1-1': 'Characterizing and Designing Tactical Mobility Models',
-        'research-area-1-2': 'A Systematic Comparison of Synthetic and Realistic Tactical Mobility Models',
-        'research-area-1-3': 'Mobility-Aware Network Topology Optimization for Tactical Scenarios',
-        'research-area-1-4': 'Predicting Unit Behavior in Tactical Scenarios Using Deep Learning',
-        'research-area-1-5': 'Coordinated Mobility Models for Mixed UAV-Ground Tactical Units',
-        'research-area-1-6': 'Adding new mobility models into the Mininet-WiFi emulator',
-        'research-area-1-7': 'Exploring Mobile Entities Interactions to Build Resilient Systems',
-        'research-area-1-8': 'Characterizing Social IoT Traces: From Spatiotemporal to Social Analyses',
-        'research-area-1-9': 'Designing IoT Mobility Model Based on Abstract Relationships: Characterization and Application',
-
-        'research-area-2-title': 'Network Security and Resilience',
-        'research-area-2-1': 'Detecting Network Topologies to Boost Cyber Attacks',
-        'research-area-2-2': 'Differentiating network entities through their mobility using AI',
-        'research-area-2-3': 'Simulating cyber attacks and countermeasures using Cyber Operations Research Gym (CybORG)',
-        'research-area-2-4': 'Federated Learning improving security and privacy in tactical networks',
-        'research-area-2-5': 'Resilient controller against cyber threats in software-defined IoT networks',
-        'research-area-2-6': 'Cyber defense system in software-defined tactical networks',
-        'research-area-2-7': 'The Impact of mobility in SDN-based protocols: evaluation and solutions',
-        'research-area-2-8': 'From Friendship to Trustiness: Adapting security policies based on Social Interactions',
-        'research-area-2-9': 'An OpenFlow lightweight protocol for tactical networks to reduce control overhead and increase network security',
-
-        'research-area-3-title': 'Generative AI and Optimization',
-        'research-area-3-1': 'Using generative AI tools to create network environments (NetGen)',
-        'research-area-3-2': 'AI-based Vs. Traditional Scheduling Functions For 6TiSCH Networks: A Comparative Analysis And Development Of New Approaches',
-        'research-area-3-3': 'Conflict Resolution in Train Timetabling Using Alternative Graphs and Deep Q-Networks',
-
-        'research-applications-title': 'Application Areas',
-        'tag-smart-cities': 'Smart Cities',
-        'tag-transport': 'Intelligent Transportation Systems',
-        'tag-industry': 'Industry 4.0/5.0',
-        'tag-agriculture': 'Smart Agriculture',
-        'tag-tactical': 'Tactical Networks',
-        'tag-military': 'Military Internet of Things',
-        
-        // Team
-        'team-title': 'Team',
-        'team-coordinator': 'Coordinator',
-        'team-national': 'Main National Collaborators',
-        'team-international': 'Main International Collaborators',
-        'team-students': 'Associated Students',
-        
-        // Publications
-        'publications-title': 'Publications',
-        'publications-description': 'Scientific contributions of the project to date',
-        'status-approved': 'Approved',
-        'status-submitted': 'Submitted',
-        
-        // Dissemination
-        'dissemination-title': 'Dissemination',
-        'dissemination-description': 'Presentations, technical visits, and project workshops',
-        'dissemination-presentations': 'Presentations',
-        'dissemination-presentations-text': 'Project presentations at conferences, seminars, and national and international scientific events.',
-        'dissemination-visits': 'Technical Visits',
-        'dissemination-visits-text': 'Technical visits to partner institutions and research centers for knowledge exchange and collaboration.',
-        'dissemination-workshops': 'Workshops',
-        'dissemination-workshops-text': 'Workshops organized by the project for knowledge dissemination, training, and researcher capacity building.',
-        'coming-soon': 'Coming soon: information about completed and future presentations.',
-        'visit-1-title': 'August 2025 - H.IAAC UNICAMP',
-        'visit-1-text': 'During this period, the coordinator participated in activities at H.IAAC – Hub for Artificial Intelligence and Cognitive Architectures at IC UNICAMP, as well as meetings with the Distributed Learning research group. The visit aimed to foster collaborations within the scope of the project "Resilient Systems for Intelligent Environments: Addressing Data Quality and Context Awareness," linked to CNPq/MCTI/FNDCT Call for Proposals No. 21/2024 – Knowledge Brazil Program: Talent Attraction and Retention.',
-        'visit-2-title': 'October 2025 - Fraunhofer FKIE Institute',
-        'visit-2-text': 'The purpose of this visit is to strengthen the collaboration between Brazil and Germany within the scope of the project "ReSIE – Resilient Systems for Intelligent Environments: Addressing Data Quality and Context Awareness," supported by the CNPq/MCTI/FNDCT Call for Proposals No. 21/2024 – Knowledge Brazil Program (Conhecimento Brasil): Talent Attraction and Retention. During this period, they will participate in group meetings with the currently supervised students at the University of Bonn and contribute to ongoing discussions aimed at consolidating and further developing the established collaborations between the FKIE Institute, the University of Bonn, and the Brazilian institutions—the Federal University of Minas Gerais and the Federal University of Bahia.',
-        'visit-3-title': 'October 2025 - Osnabrück University',
-        'visit-3-text': 'The purpose of this visit is to strengthen collaboration within the framework of the project "ReSIE – Resilient Systems for Intelligent Environments: Addressing Data Quality and Context Awareness," which is supported by the CNPq/MCTI/FNDCT Call for Proposals No. 21/2024 – Knowledge Brazil Program (Conhecimento Brasil): Talent Attraction and Retention. During this period, they will engage in academic activities within the Distributed Systems Group and the Department of Computer Science at Osnabrück University. Additionally, they will participate in discussions on long-term international collaborations, including the preparation of a submission to the CNPq Research Grant (Call No. 16/2025) for a postdoctoral fellowship for Dr. Bruno, to be conducted under my supervision.',
-        
-        // Footer
-        'footer-subtitle-pt': 'Resilient Systems for Intelligent Environments',
-        'footer-subtitle-en': 'ReSIE Project',
-        'footer-contact': 'Contact',
-        'footer-coordinator': 'Coordinator: Dr. Paulo H. L. Rettore',
-        'footer-copyright': '© 2025 SiR.AI Project. All rights reserved.'
-    }
-};
-
-// Export for use in script.js
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = translations;
-}
+        'footer-copyright': '© 2025 SiR.AI Project. Todos os direitos reservados.',
 
         // Dissemination Pages
         'visits-page-title': 'Visitas Técnicas',
@@ -263,7 +133,7 @@ if (typeof module !== 'undefined' && module.exports) {
         'photo-hint': 'Substitua este espaço com imagens da atividade',
         'coming-soon-title': 'Em Breve',
         'presentations-coming-soon': 'Informações sobre apresentações realizadas e futuras serão adicionadas em breve. Fique atento às atualizações!',
-        'workshops-coming-soon': 'Informações sobre workshops planejados e realizados serão adicionadas em breve. Fique atento às atualizações!',
+        'workshops-coming-soon': 'Informações sobre workshops planejados e realizados serão adicionadas em breve. Fique atento às atualizações!'
     },
     en: {
         // Navigation
@@ -399,4 +269,6 @@ if (typeof module !== 'undefined' && module.exports) {
         'photo-hint': 'Replace this space with activity images',
         'coming-soon-title': 'Coming Soon',
         'presentations-coming-soon': 'Information about completed and future presentations will be added soon. Stay tuned for updates!',
-        'workshops-coming-soon': 'Information about planned and completed workshops will be added soon. Stay tuned for updates!',
+        'workshops-coming-soon': 'Information about planned and completed workshops will be added soon. Stay tuned for updates!'
+    }
+};
