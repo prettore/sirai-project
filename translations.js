@@ -91,6 +91,7 @@ const translations = {
         'team-national': 'Principais Colaboradores Nacionais',
         'team-international': 'Principais Colaboradores Internacionais',
         'team-students': 'Estudantes Associados',
+        'team-students-concluded': 'Estudantes Formados',
         
         // Publications
         'publications-title': 'Publicações',
@@ -239,6 +240,7 @@ const translations = {
         'team-national': 'Main National Collaborators',
         'team-international': 'Main International Collaborators',
         'team-students': 'Associated Students',
+        'team-students-concluded': 'Graduated Students',
         
         // Publications
         'publications-title': 'Publications',
