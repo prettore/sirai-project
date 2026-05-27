@@ -130,6 +130,9 @@ const translations = {
         'sbrc-paper-3-authors': 'Antonio Cruz (UFBA), Vinicius Almeida (UFMG), Paulo Rettore (UFLA/UFMG), Bruno Santos (UFBA)',
         'sbrc-paper-4-title': 'Desafios de Escalabilidade e Resiliência em SDN sob Mobilidade: Uma Análise Exploratória do OpenFlow',
         'sbrc-paper-4-authors': 'Md Ashk Rezwan (University of Bonn), Edgar dos Santos Oliveira (USP), Paulo Rettore (UFLA/UFMG), Clayson S. F. de S. Celes (IFCE/ITA), Bruno Santos (UFBA), José Marcos Nogueira (UFMG), Rodolfo Meneguette (USP)',
+        'presentation-sbrc-workshop': 'SBRC Workshop de Trabalhos de Iniciação Científica e de Graduação:',
+        'sbrc-workshop-paper-1-title': 'Do Dado à Ação: Modelando Pragmatismo no contexto da Internet das Coisas',
+        'sbrc-workshop-paper-1-authors': 'João Victor S. Coelho, Victor S. Cardel, Paulo H. L. Rettore, Daniela B. Claro, Bruno Santos',
         'presentation-sbrc-funding': 'Apoio:',
         'presentation-sbrc-funding-text': 'CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) [444077/2024-3, 407568/2025-5], e FAPESP (Fundação de Amparo à Pesquisa do Estado de São Paulo), em conjunto com o Comitê Gestor da Internet no Brasil (CGI.br) [2018/23097-3, 2020/05182-3 e 2025/00513-5].',
 
@@ -151,6 +154,9 @@ const translations = {
         'footer-contact': 'Contato',
         'footer-coordinator': 'Coordenador: Dr. Paulo H. L. Rettore',
         'footer-copyright': '© 2025 SiR.AI Project. Todos os direitos reservados.',
+        
+        // Share buttons
+        'share-this-post': 'Compartilhe esta notícia:',
 
         // Dissemination Pages
         'visits-page-title': 'Visitas Técnicas',
@@ -296,6 +302,9 @@ const translations = {
         'sbrc-paper-3-authors': 'Antonio Cruz (UFBA), Vinicius Almeida (UFMG), Paulo Rettore (UFLA/UFMG), Bruno Santos (UFBA)',
         'sbrc-paper-4-title': 'Scalability and Resilience Challenges in SDN under Mobility: An Exploratory Analysis of OpenFlow',
         'sbrc-paper-4-authors': 'Md Ashk Rezwan (University of Bonn), Edgar dos Santos Oliveira (USP), Paulo Rettore (UFLA/UFMG), Clayson S. F. de S. Celes (IFCE/ITA), Bruno Santos (UFBA), José Marcos Nogueira (UFMG), Rodolfo Meneguette (USP)',
+        'presentation-sbrc-workshop': 'SBRC Workshop on Undergraduate and Graduate Student Research:',
+        'sbrc-workshop-paper-1-title': 'From Data to Action: Modeling Pragmatism in the Context of Internet of Things',
+        'sbrc-workshop-paper-1-authors': 'João Victor S. Coelho, Victor S. Cardel, Paulo H. L. Rettore, Daniela B. Claro, Bruno Santos',
         'presentation-sbrc-funding': 'Support:',
         'presentation-sbrc-funding-text': 'CNPq - National Council for Scientific and Technological Development (CNPq) [444077/2024-3, 407568/2025-5], and FAPESP (São Paulo Research Foundation), together with the Internet Steering Committee in Brazil (CGI.br) [2018/23097-3, 2020/05182-3 and 2025/00513-5].',
 
@@ -317,6 +326,9 @@ const translations = {
         'footer-contact': 'Contact',
         'footer-coordinator': 'Coordinator: Dr. Paulo H. L. Rettore',
         'footer-copyright': '© 2025 SiR.AI Project. All rights reserved.',
+        
+        // Share buttons
+        'share-this-post': 'Share this news:',
 
         // Dissemination Pages
         'visits-page-title': 'Technical Visits',
