@@ -116,17 +116,34 @@ const translations = {
         'visit-3-title': 'Outubro de 2025 - Universidade de Osnabrück',
         'visit-3-text': 'O objetivo desta visita é fortalecer a colaboração no âmbito do projeto "ReSIE – Sistemas Resilientes para Ambientes Inteligentes: Abordando a Qualidade dos Dados e a Consciência de Contexto", que é apoiado pelo Edital CNPq/MCTI/FNDCT nº 21/2024 – Programa Conhecimento Brasil: Atração e Retenção de Talentos. Durante este período, participarão de atividades acadêmicas no Grupo de Sistemas Distribuídos e no Departamento de Ciência da Computação da Universidade de Osnabrück. Além disso, participarão de discussões sobre colaborações internacionais de longo prazo, incluindo a preparação de uma submissão ao Edital de Bolsa de Pesquisa do CNPq (Edital nº 16/2025) para uma bolsa de pós-doutorado para o Dr. Bruno, a ser realizada sob minha supervisão.',
 
-// Presentations - WebMedia 2025
-    'presentation-1-title': 'Novembro de 2025 - WebMedia 2025',
-    'presentation-1-date': 'Novembro 2025',
-    'presentation-1-text': 'Durante o WebMedia 2025 - 31º Simpósio Brasileiro de Sistemas Multimídia e Web, realizado na PUC-Rio no Rio de Janeiro, foi apresentado o trabalho intitulado "Análise do uso de Modelos de Linguagem de Grande Escala na Geração de Códigos para Automação Residencial". O trabalho foi desenvolvido por Antonio Cruz (Universidade Federal da Bahia), Paulo H. L. Rettore (Universidade Federal de Minas Gerais) e Bruno P. Santos (Universidade Federal da Bahia). A apresentação abordou a aplicação de modelos de linguagem de grande escala (LLMs) na geração automatizada de códigos para sistemas de automação residencial, explorando as potencialidades e desafios dessa abordagem inovadora no contexto de ambientes inteligentes.',
-    
-    // Presentations - SDS 2025
-    'presentation-2-title': 'Dezembro de 2025 - SDS 2025',
-    'presentation-2-date': 'Dezembro 2025',
-    'presentation-2-text': 'Durante a 12ª Conferência Internacional sobre Sistemas Definidos por Software (SDS 2025), realizada em Lyon, França, de 2 a 5 de dezembro de 2025, foram apresentados quatro artigos científicos desenvolvidos no âmbito do projeto SiR.AI. Os trabalhos aceitos abordam temas fundamentais para o avanço de sistemas resilientes e inteligentes, incluindo modelos de mobilidade realistas para testes de algoritmos e protocolos em IoT, criação de cenários realistas para aplicações de rede robustas, arquitetura modular para computação e visualização de métricas de mobilidade, e integração de inteligência artificial em simuladores de protocolos de rede. As apresentações contaram com a participação de pesquisadores das instituições parceiras do projeto, incluindo a Universidade Federal de Minas Gerais, Universidade Federal da Bahia, Instituto Fraunhofer FKIE e outras instituições colaboradoras internacionais.',
-    'presentation-2-papers': 'Artigos apresentados:',
-    'presentation-2-papers-list': '<li><strong>"Towards Realistic Testing of Algorithms and Protocols in IoT Through a Novel Mobility Model"</strong> - Leon Luca Lausberg, Paulo Rettore, Philipp Zißner, Sean Kloth, Edgar S. Oliveira, Clayson Celes, Peter Sevenich e Bruno Santos</li><li><strong>"Enabling the Design of Robust Network Applications by Creating Realistic Scenarios"</strong> - Edgar S. Oliveira, Paulo Rettore, Clayson Celes, Leon Luca Lausberg, Rodolfo Meneguette e Nils Aschenbruck</li><li><strong>"MobMetrics: A Modular Architecture for Computing and Visualizing Mobility Metrics"</strong> - Márcio Filho, Lucas Novais, Leon Luca Lausberg, Peter Sevenich, Paulo Rettore e Bruno Santos</li><li><strong>"SnapAI: a Simulator for Network Algorithms and Protocols with Artificial Intelligence integration"</strong> - João Vitor S. Coelho, Leon Luca Lausberg, Philipp Zißner, Peter Sevenich, Vinícius F. S. Mota, Cássio V. S. Prazeres, Paulo Rettore e Bruno Santos</li>',
+        // Presentations - SBRC 2025
+        'presentation-sbrc-title': 'Maio de 2025 - SBRC 2025',
+        'presentation-sbrc-date': 'Maio 2025',
+        'presentation-sbrc-intro': 'O projeto SiR.AI teve grande destaque no SBRC 2025 - Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos, um dos principais eventos nacionais na área de redes e sistemas distribuídos. Quatro artigos científicos foram aceitos e apresentados, refletindo esforços colaborativos entre diferentes instituições e reforçando o compromisso com a pesquisa aplicada e de impacto.',
+        'presentation-sbrc-papers': 'Artigos apresentados:',
+        'presentation-sbrc-papers-list': 'Lista de artigos do SBRC 2025',
+        'sbrc-paper-1-title': 'Em Direção ao Realismo Espacial: Um Modelo de Mobilidade Humana Baseado em Small World In Motion e OpenStreetMap',
+        'sbrc-paper-1-authors': 'Edgar Oliveira (USP), Rodolfo Meneguette (USP), Gustavo B. Figueiredo (UFBA), Maycon Leone M. Peixoto (UFBA), Cassio Prazeres (UFBA), Paulo Rettore (UFLA/UFMG), Bruno Santos (UFBA)',
+        'sbrc-paper-2-title': 'Análise do impacto da qualidade de rede na experiência do jogador em jogos de realidade virtual',
+        'sbrc-paper-2-authors': 'Victor Gabriel Araújo Barbosa (UFMG), Daniel Fernandes Macedo (DCC/UFMG), Vinicius R. Oliveira (UFMG), Sérgio Carneiro (UFES), Ricardo Mello (UFES), Paulo Rettore (UFLA/UFMG), José Marcos Nogueira (UFMG)',
+        'sbrc-paper-3-title': 'Análise do uso de Modelos de Linguagem de Grande Escala na Geração de Códigos para Simulação de Redes utilizando o Mininet Wi-Fi',
+        'sbrc-paper-3-authors': 'Antonio Cruz (UFBA), Vinicius Almeida (UFMG), Paulo Rettore (UFLA/UFMG), Bruno Santos (UFBA)',
+        'sbrc-paper-4-title': 'Desafios de Escalabilidade e Resiliência em SDN sob Mobilidade: Uma Análise Exploratória do OpenFlow',
+        'sbrc-paper-4-authors': 'Md Ashk Rezwan (University of Bonn), Edgar dos Santos Oliveira (USP), Paulo Rettore (UFLA/UFMG), Clayson S. F. de S. Celes (IFCE/ITA), Bruno Santos (UFBA), José Marcos Nogueira (UFMG), Rodolfo Meneguette (USP)',
+        'presentation-sbrc-funding': 'Apoio:',
+        'presentation-sbrc-funding-text': 'CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) [444077/2024-3, 407568/2025-5], e FAPESP (Fundação de Amparo à Pesquisa do Estado de São Paulo), em conjunto com o Comitê Gestor da Internet no Brasil (CGI.br) [2018/23097-3, 2020/05182-3 e 2025/00513-5].',
+
+        // Presentations - WebMedia 2025
+        'presentation-1-title': 'Novembro de 2025 - WebMedia 2025',
+        'presentation-1-date': 'Novembro 2025',
+        'presentation-1-text': 'Durante o WebMedia 2025 - 31º Simpósio Brasileiro de Sistemas Multimídia e Web, realizado na PUC-Rio no Rio de Janeiro, foi apresentado o trabalho intitulado "Análise do uso de Modelos de Linguagem de Grande Escala na Geração de Códigos para Automação Residencial". O trabalho foi desenvolvido por Antonio Cruz (Universidade Federal da Bahia), Paulo H. L. Rettore (Universidade Federal de Minas Gerais) e Bruno P. Santos (Universidade Federal da Bahia). A apresentação abordou a aplicação de modelos de linguagem de grande escala (LLMs) na geração automatizada de códigos para sistemas de automação residencial, explorando as potencialidades e desafios dessa abordagem inovadora no contexto de ambientes inteligentes.',
+        
+        // Presentations - SDS 2025
+        'presentation-2-title': 'Dezembro de 2025 - SDS 2025',
+        'presentation-2-date': 'Dezembro 2025',
+        'presentation-2-text': 'Durante a 12ª Conferência Internacional sobre Sistemas Definidos por Software (SDS 2025), realizada em Lyon, França, de 2 a 5 de dezembro de 2025, foram apresentados quatro artigos científicos desenvolvidos no âmbito do projeto SiR.AI. Os trabalhos aceitos abordam temas fundamentais para o avanço de sistemas resilientes e inteligentes, incluindo modelos de mobilidade realistas para testes de algoritmos e protocolos em IoT, criação de cenários realistas para aplicações de rede robustas, arquitetura modular para computação e visualização de métricas de mobilidade, e integração de inteligência artificial em simuladores de protocolos de rede. As apresentações contaram com a participação de pesquisadores das instituições parceiras do projeto, incluindo a Universidade Federal de Minas Gerais, Universidade Federal da Bahia, Instituto Fraunhofer FKIE e outras instituições colaboradoras internacionais.',
+        'presentation-2-papers': 'Artigos apresentados:',
+        'presentation-2-papers-list': '<li><strong>"Enabling the Design of Robust Network Applications by Creating Realistic Scenarios"</strong> - Edgar S. Oliveira, Paulo Rettore, Clayson Celes, Leon Luca Lausberg, Rodolfo Meneguette e Nils Aschenbruck</li><li><strong>"Towards Realistic Testing of Algorithms and Protocols in IoT Through a Novel Mobility Model"</strong> - Leon Luca Lausberg, Paulo Rettore, Philipp Zißner, Sean Kloth, Edgar S. Oliveira, Clayson Celes, Peter Sevenich e Bruno Santos</li><li><strong>"MobMetrics: A Modular Architecture for Computing and Visualizing Mobility Metrics"</strong> - Márcio Filho, Lucas Novais, Leon Luca Lausberg, Peter Sevenich, Paulo Rettore e Bruno Santos</li><li><strong>"SnapAI: a Simulator for Network Algorithms and Protocols with Artificial Intelligence integration"</strong> - João Vitor S. Coelho, Leon Luca Lausberg, Philipp Zißner, Peter Sevenich, Vinícius F. S. Mota, Cássio V. S. Prazeres, Paulo Rettore e Bruno Santos</li>',
         
         // Footer
         'footer-subtitle-pt': 'Sistemas Resilientes para Ambientes Inteligentes',
@@ -257,29 +274,46 @@ const translations = {
         'dissemination-visits-text': 'Technical visits to partner institutions and research centers for knowledge exchange and collaboration.',
         'dissemination-workshops': 'Workshops',
         'dissemination-workshops-text': 'Workshops organized by the project for knowledge dissemination, training, and researcher capacity building.',
-        'coming-soon': 'Coming soon: information about completed and future presentations.',
+        'coming-soon': 'Coming soon: information about past and future presentations.',
         'visit-1-title': 'August 2025 - H.IAAC UNICAMP',
-        'visit-1-text': 'During this period, the coordinator participated in activities at H.IAAC – Hub for Artificial Intelligence and Cognitive Architectures at IC UNICAMP, as well as meetings with the Distributed Learning research group. The visit aimed to foster collaborations within the scope of the project "Resilient Systems for Intelligent Environments: Addressing Data Quality and Context Awareness," linked to CNPq/MCTI/FNDCT Call for Proposals No. 21/2024 – Knowledge Brazil Program: Talent Attraction and Retention.',
+        'visit-1-text': 'During this period, the coordinator participated in activities at H.IAAC – Hub for Artificial Intelligence and Cognitive Architectures at IC UNICAMP, as well as meetings with the Distributed Learning research group. The visit aimed to foster collaborations within the scope of the "Resilient Systems for Intelligent Environments: Addressing Data Quality and Context Awareness" project, linked to the CNPq/MCTI/FNDCT Call No. 21/2024 – Knowledge Brazil Program – Talent Attraction and Retention.',
         'visit-2-title': 'October 2025 - Fraunhofer FKIE Institute',
-        'visit-2-text': 'The purpose of this visit is to strengthen the collaboration between Brazil and Germany within the scope of the project "ReSIE – Resilient Systems for Intelligent Environments: Addressing Data Quality and Context Awareness," supported by the CNPq/MCTI/FNDCT Call for Proposals No. 21/2024 – Knowledge Brazil Program (Conhecimento Brasil): Talent Attraction and Retention. During this period, they will participate in group meetings with the currently supervised students at the University of Bonn and contribute to ongoing discussions aimed at consolidating and further developing the established collaborations between the FKIE Institute, the University of Bonn, and the Brazilian institutions—the Federal University of Minas Gerais and the Federal University of Bahia.',
-        'visit-3-title': 'October 2025 - Osnabrück University',
-        'visit-3-text': 'The purpose of this visit is to strengthen collaboration within the framework of the project "ReSIE – Resilient Systems for Intelligent Environments: Addressing Data Quality and Context Awareness," which is supported by the CNPq/MCTI/FNDCT Call for Proposals No. 21/2024 – Knowledge Brazil Program (Conhecimento Brasil): Talent Attraction and Retention. During this period, they will engage in academic activities within the Distributed Systems Group and the Department of Computer Science at Osnabrück University. Additionally, they will participate in discussions on long-term international collaborations, including the preparation of a submission to the CNPq Research Grant (Call No. 16/2025) for a postdoctoral fellowship for Dr. Bruno, to be conducted under my supervision.',
+        'visit-2-text': 'The objective of this visit is to strengthen collaboration between Brazil and Germany within the scope of the "ReSIE – Resilient Systems for Intelligent Environments: Addressing Data Quality and Context Awareness" project, supported by the CNPq/MCTI/FNDCT Call No. 21/2024 – Knowledge Brazil Program: Talent Attraction and Retention. During this period, they will participate in group meetings with students currently supervised at the University of Bonn and contribute to ongoing discussions aimed at consolidating and further developing collaborations established between the FKIE Institute, the University of Bonn, and Brazilian institutions—the Federal University of Minas Gerais and the Federal University of Bahia.',
+        'visit-3-title': 'October 2025 - University of Osnabrück',
+        'visit-3-text': 'The objective of this visit is to strengthen collaboration within the scope of the "ReSIE – Resilient Systems for Intelligent Environments: Addressing Data Quality and Context Awareness" project, which is supported by the CNPq/MCTI/FNDCT Call No. 21/2024 – Knowledge Brazil Program: Talent Attraction and Retention. During this period, they will participate in academic activities in the Distributed Systems Group and the Department of Computer Science at the University of Osnabrück. Additionally, they will participate in discussions about long-term international collaborations, including the preparation of a submission to the CNPq Research Scholarship Call (Call No. 16/2025) for a postdoctoral scholarship for Dr. Bruno, to be conducted under my supervision.',
 
-// Presentations - WebMedia 2025
-    'presentation-1-title': 'November 2025 - WebMedia 2025',
-    'presentation-1-date': 'November 2025',
-    'presentation-1-text': 'During WebMedia 2025 - 31st Brazilian Symposium on Multimedia and Web Systems, held at PUC-Rio in Rio de Janeiro, the paper entitled "Analysis of the Use of Large Language Models in Code Generation for Home Automation" was presented. The work was developed by Antonio Cruz (Federal University of Bahia), Paulo H. L. Rettore (Federal University of Minas Gerais), and Bruno P. Santos (Federal University of Bahia). The presentation addressed the application of large language models (LLMs) in automated code generation for home automation systems, exploring the potential and challenges of this innovative approach in the context of intelligent environments.',
-    
-    // Presentations - SDS 2025
-    'presentation-2-title': 'December 2025 - SDS 2025',
-    'presentation-2-date': 'December 2025',
-    'presentation-2-text': 'During the 12th International Conference on Software Defined Systems (SDS 2025), held in Lyon, France, from December 2 to 5, 2025, four scientific papers developed within the scope of the SiR.AI project were presented. The accepted works address fundamental topics for the advancement of resilient and intelligent systems, including realistic mobility models for testing algorithms and protocols in IoT, creation of realistic scenarios for robust network applications, modular architecture for computing and visualizing mobility metrics, and integration of artificial intelligence in network protocol simulators. The presentations featured the participation of researchers from partner institutions of the project, including the Federal University of Minas Gerais, Federal University of Bahia, Fraunhofer FKIE Institute, and other international collaborating institutions.',
-    'presentation-2-papers': 'Presented papers:',
-    'presentation-2-papers-list': '<li><strong>"Towards Realistic Testing of Algorithms and Protocols in IoT Through a Novel Mobility Model"</strong> - Leon Luca Lausberg, Paulo Rettore, Philipp Zißner, Sean Kloth, Edgar S. Oliveira, Clayson Celes, Peter Sevenich and Bruno Santos</li><li><strong>"Enabling the Design of Robust Network Applications by Creating Realistic Scenarios"</strong> - Edgar S. Oliveira, Paulo Rettore, Clayson Celes, Leon Luca Lausberg, Rodolfo Meneguette and Nils Aschenbruck</li><li><strong>"MobMetrics: A Modular Architecture for Computing and Visualizing Mobility Metrics"</strong> - Márcio Filho, Lucas Novais, Leon Luca Lausberg, Peter Sevenich, Paulo Rettore and Bruno Santos</li><li><strong>"SnapAI: a Simulator for Network Algorithms and Protocols with Artificial Intelligence integration"</strong> - João Vitor S. Coelho, Leon Luca Lausberg, Philipp Zißner, Peter Sevenich, Vinícius F. S. Mota, Cássio V. S. Prazeres, Paulo Rettore and Bruno Santos</li>',
+        // Presentations - SBRC 2025
+        'presentation-sbrc-title': 'May 2025 - SBRC 2025',
+        'presentation-sbrc-date': 'May 2025',
+        'presentation-sbrc-intro': 'The SiR.AI project was prominently featured at SBRC 2025 - Brazilian Symposium on Computer Networks and Distributed Systems, one of the main national events in the area of networks and distributed systems. Four scientific papers were accepted and presented, reflecting collaborative efforts among different institutions and reinforcing the commitment to applied and impactful research.',
+        'presentation-sbrc-papers': 'Papers presented:',
+        'presentation-sbrc-papers-list': 'List of SBRC 2025 papers',
+        'sbrc-paper-1-title': 'Towards Spatial Realism: A Human Mobility Model Based on Small World In Motion and OpenStreetMap',
+        'sbrc-paper-1-authors': 'Edgar Oliveira (USP), Rodolfo Meneguette (USP), Gustavo B. Figueiredo (UFBA), Maycon Leone M. Peixoto (UFBA), Cassio Prazeres (UFBA), Paulo Rettore (UFLA/UFMG), Bruno Santos (UFBA)',
+        'sbrc-paper-2-title': 'Analysis of the Impact of Network Quality on Player Experience in Virtual Reality Games',
+        'sbrc-paper-2-authors': 'Victor Gabriel Araújo Barbosa (UFMG), Daniel Fernandes Macedo (DCC/UFMG), Vinicius R. Oliveira (UFMG), Sérgio Carneiro (UFES), Ricardo Mello (UFES), Paulo Rettore (UFLA/UFMG), José Marcos Nogueira (UFMG)',
+        'sbrc-paper-3-title': 'Analysis of the Use of Large Language Models in Code Generation for Network Simulation using Mininet Wi-Fi',
+        'sbrc-paper-3-authors': 'Antonio Cruz (UFBA), Vinicius Almeida (UFMG), Paulo Rettore (UFLA/UFMG), Bruno Santos (UFBA)',
+        'sbrc-paper-4-title': 'Scalability and Resilience Challenges in SDN under Mobility: An Exploratory Analysis of OpenFlow',
+        'sbrc-paper-4-authors': 'Md Ashk Rezwan (University of Bonn), Edgar dos Santos Oliveira (USP), Paulo Rettore (UFLA/UFMG), Clayson S. F. de S. Celes (IFCE/ITA), Bruno Santos (UFBA), José Marcos Nogueira (UFMG), Rodolfo Meneguette (USP)',
+        'presentation-sbrc-funding': 'Support:',
+        'presentation-sbrc-funding-text': 'CNPq - National Council for Scientific and Technological Development (CNPq) [444077/2024-3, 407568/2025-5], and FAPESP (São Paulo Research Foundation), together with the Internet Steering Committee in Brazil (CGI.br) [2018/23097-3, 2020/05182-3 and 2025/00513-5].',
+
+        // Presentations - WebMedia 2025
+        'presentation-1-title': 'November 2025 - WebMedia 2025',
+        'presentation-1-date': 'November 2025',
+        'presentation-1-text': 'During WebMedia 2025 - 31st Brazilian Symposium on Multimedia and Web Systems, held at PUC-Rio in Rio de Janeiro, the work titled "Analysis of the Use of Large Language Models in Code Generation for Home Automation" was presented. The work was developed by Antonio Cruz (Federal University of Bahia), Paulo H. L. Rettore (Federal University of Minas Gerais), and Bruno P. Santos (Federal University of Bahia). The presentation addressed the application of large language models (LLMs) in automated code generation for home automation systems, exploring the potential and challenges of this innovative approach in the context of intelligent environments.',
+        
+        // Presentations - SDS 2025
+        'presentation-2-title': 'December 2025 - SDS 2025',
+        'presentation-2-date': 'December 2025',
+        'presentation-2-text': 'During the 12th International Conference on Software-Defined Systems (SDS 2025), held in Lyon, France, from December 2-5, 2025, four scientific papers developed within the scope of the SiR.AI project were presented. The accepted works address fundamental topics for the advancement of resilient and intelligent systems, including realistic mobility models for testing algorithms and protocols in IoT, creation of realistic scenarios for robust network applications, modular architecture for computing and visualizing mobility metrics, and integration of artificial intelligence in network protocol simulators. The presentations featured participation from researchers from partner institutions of the project, including the Federal University of Minas Gerais, Federal University of Bahia, Fraunhofer FKIE Institute, and other international collaborating institutions.',
+        'presentation-2-papers': 'Papers presented:',
+        'presentation-2-papers-list': '<li><strong>"Enabling the Design of Robust Network Applications by Creating Realistic Scenarios"</strong> - Edgar S. Oliveira, Paulo Rettore, Clayson Celes, Leon Luca Lausberg, Rodolfo Meneguette and Nils Aschenbruck</li><li><strong>"Towards Realistic Testing of Algorithms and Protocols in IoT Through a Novel Mobility Model"</strong> - Leon Luca Lausberg, Paulo Rettore, Philipp Zißner, Sean Kloth, Edgar S. Oliveira, Clayson Celes, Peter Sevenich and Bruno Santos</li><li><strong>"MobMetrics: A Modular Architecture for Computing and Visualizing Mobility Metrics"</strong> - Márcio Filho, Lucas Novais, Leon Luca Lausberg, Peter Sevenich, Paulo Rettore and Bruno Santos</li><li><strong>"SnapAI: a Simulator for Network Algorithms and Protocols with Artificial Intelligence integration"</strong> - João Vitor S. Coelho, Leon Luca Lausberg, Philipp Zißner, Peter Sevenich, Vinícius F. S. Mota, Cássio V. S. Prazeres, Paulo Rettore and Bruno Santos</li>',
         
         // Footer
         'footer-subtitle-pt': 'Resilient Systems for Intelligent Environments',
-        'footer-subtitle-en': 'ReSIE Project',
+        'footer-subtitle-en': 'Resilient Systems for Intelligent Environments',
         'footer-contact': 'Contact',
         'footer-coordinator': 'Coordinator: Dr. Paulo H. L. Rettore',
         'footer-copyright': '© 2025 SiR.AI Project. All rights reserved.',
@@ -294,7 +328,37 @@ const translations = {
         'add-photos': 'Add photos here',
         'photo-hint': 'Replace this space with activity images',
         'coming-soon-title': 'Coming Soon',
-        'presentations-coming-soon': 'Information about completed and future presentations will be added soon. Stay tuned for updates!',
-        'workshops-coming-soon': 'Information about planned and completed workshops will be added soon. Stay tuned for updates!'
+        'presentations-coming-soon': 'Information about past and future presentations will be added soon. Stay tuned for updates!',
+        'workshops-coming-soon': 'Information about planned and held workshops will be added soon. Stay tuned for updates!'
     }
 };
+
+// Function to get translation
+function getTranslation(key, lang = 'pt') {
+    return translations[lang][key] || key;
+}
+
+// Function to apply translations to the page
+function applyTranslations(lang = 'pt') {
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        element.textContent = getTranslation(key, lang);
+    });
+}
+
+// Set initial language
+let currentLanguage = localStorage.getItem('language') || 'pt';
+applyTranslations(currentLanguage);
+
+// Language switcher
+document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        currentLanguage = this.getAttribute('data-lang');
+        localStorage.setItem('language', currentLanguage);
+        
+        document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        
+        applyTranslations(currentLanguage);
+    });
+});
