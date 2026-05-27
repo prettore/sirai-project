@@ -116,12 +116,12 @@ const translations = {
         'visit-3-title': 'Outubro de 2025 - Universidade de Osnabrück',
         'visit-3-text': 'O objetivo desta visita é fortalecer a colaboração no âmbito do projeto "ReSIE – Sistemas Resilientes para Ambientes Inteligentes: Abordando a Qualidade dos Dados e a Consciência de Contexto", que é apoiado pelo Edital CNPq/MCTI/FNDCT nº 21/2024 – Programa Conhecimento Brasil: Atração e Retenção de Talentos. Durante este período, participarão de atividades acadêmicas no Grupo de Sistemas Distribuídos e no Departamento de Ciência da Computação da Universidade de Osnabrück. Além disso, participarão de discussões sobre colaborações internacionais de longo prazo, incluindo a preparação de uma submissão ao Edital de Bolsa de Pesquisa do CNPq (Edital nº 16/2025) para uma bolsa de pós-doutorado para o Dr. Bruno, a ser realizada sob minha supervisão.',
 
-        // Presentations - SBRC 2025
-        'presentation-sbrc-title': 'Maio de 2025 - SBRC 2025',
-        'presentation-sbrc-date': 'Maio 2025',
-        'presentation-sbrc-intro': 'O projeto SiR.AI teve grande destaque no SBRC 2025 - Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos, um dos principais eventos nacionais na área de redes e sistemas distribuídos. Quatro artigos científicos foram aceitos e apresentados, refletindo esforços colaborativos entre diferentes instituições e reforçando o compromisso com a pesquisa aplicada e de impacto.',
+        // Presentations - SBRC 2026
+        'presentation-sbrc-title': 'Maio de 2026 - SBRC 2026',
+        'presentation-sbrc-date': 'Maio 2026',
+        'presentation-sbrc-intro': 'O projeto SiR.AI teve grande destaque no SBRC 2026 - Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos, realizado em Praia do Forte, Bahia, um dos principais eventos nacionais na área de redes e sistemas distribuídos. Quatro artigos científicos foram aceitos e apresentados, refletindo esforços colaborativos entre diferentes instituições e reforçando o compromisso com a pesquisa aplicada e de impacto.',
         'presentation-sbrc-papers': 'Artigos apresentados:',
-        'presentation-sbrc-papers-list': 'Lista de artigos do SBRC 2025',
+        'presentation-sbrc-papers-list': 'Lista de artigos do SBRC 2026',
         'sbrc-paper-1-title': 'Em Direção ao Realismo Espacial: Um Modelo de Mobilidade Humana Baseado em Small World In Motion e OpenStreetMap',
         'sbrc-paper-1-authors': 'Edgar Oliveira (USP), Rodolfo Meneguette (USP), Gustavo B. Figueiredo (UFBA), Maycon Leone M. Peixoto (UFBA), Cassio Prazeres (UFBA), Paulo Rettore (UFLA/UFMG), Bruno Santos (UFBA)',
         'sbrc-paper-2-title': 'Análise do impacto da qualidade de rede na experiência do jogador em jogos de realidade virtual',
@@ -282,12 +282,12 @@ const translations = {
         'visit-3-title': 'October 2025 - University of Osnabrück',
         'visit-3-text': 'The objective of this visit is to strengthen collaboration within the scope of the "ReSIE – Resilient Systems for Intelligent Environments: Addressing Data Quality and Context Awareness" project, which is supported by the CNPq/MCTI/FNDCT Call No. 21/2024 – Knowledge Brazil Program: Talent Attraction and Retention. During this period, they will participate in academic activities in the Distributed Systems Group and the Department of Computer Science at the University of Osnabrück. Additionally, they will participate in discussions about long-term international collaborations, including the preparation of a submission to the CNPq Research Scholarship Call (Call No. 16/2025) for a postdoctoral scholarship for Dr. Bruno, to be conducted under my supervision.',
 
-        // Presentations - SBRC 2025
-        'presentation-sbrc-title': 'May 2025 - SBRC 2025',
-        'presentation-sbrc-date': 'May 2025',
-        'presentation-sbrc-intro': 'The SiR.AI project was prominently featured at SBRC 2025 - Brazilian Symposium on Computer Networks and Distributed Systems, one of the main national events in the area of networks and distributed systems. Four scientific papers were accepted and presented, reflecting collaborative efforts among different institutions and reinforcing the commitment to applied and impactful research.',
+        // Presentations - SBRC 2026
+        'presentation-sbrc-title': 'May 2026 - SBRC 2026',
+        'presentation-sbrc-date': 'May 2026',
+        'presentation-sbrc-intro': 'The SiR.AI project was prominently featured at SBRC 2026 - Brazilian Symposium on Computer Networks and Distributed Systems, held in Praia do Forte, Bahia, one of the main national events in the area of networks and distributed systems. Four scientific papers were accepted and presented, reflecting collaborative efforts among different institutions and reinforcing the commitment to applied and impactful research.',
         'presentation-sbrc-papers': 'Papers presented:',
-        'presentation-sbrc-papers-list': 'List of SBRC 2025 papers',
+        'presentation-sbrc-papers-list': 'List of SBRC 2026 papers',
         'sbrc-paper-1-title': 'Towards Spatial Realism: A Human Mobility Model Based on Small World In Motion and OpenStreetMap',
         'sbrc-paper-1-authors': 'Edgar Oliveira (USP), Rodolfo Meneguette (USP), Gustavo B. Figueiredo (UFBA), Maycon Leone M. Peixoto (UFBA), Cassio Prazeres (UFBA), Paulo Rettore (UFLA/UFMG), Bruno Santos (UFBA)',
         'sbrc-paper-2-title': 'Analysis of the Impact of Network Quality on Player Experience in Virtual Reality Games',
