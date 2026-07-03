@@ -136,6 +136,16 @@ const translations = {
         'presentation-sbrc-funding': 'Apoio:',
         'presentation-sbrc-funding-text': 'CNPq - Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) [444077/2024-3, 407568/2025-5], e FAPESP (Fundação de Amparo à Pesquisa do Estado de São Paulo), em conjunto com o Comitê Gestor da Internet no Brasil (CGI.br) [2018/23097-3, 2020/05182-3 e 2025/00513-5].',
 
+        // Presentations - ISCC 2026
+        'presentation-iscc2-title': 'Junho de 2026 - ISCC 2026',
+        'presentation-iscc2-date': 'Junho 2026',
+        'presentation-iscc2-intro': 'O projeto SiR.AI marcou presença no 31º IEEE Symposium on Computers and Communications (ISCC 2026), com dois artigos científicos aceitos e apresentados. Os trabalhos abordam desafios de escalabilidade em redes definidas por software sob mobilidade e otimização de horários ferroviários com aprendizado profundo, refletindo a amplitude e o impacto da pesquisa desenvolvida no projeto.',
+        'presentation-iscc2-papers': 'Artigos apresentados:',
+        'iscc-paper-1-title': 'Scalability and Resilience Challenges in SDWN: Investigating OpenFlow in Dynamic Scenarios',
+        'iscc-paper-1-authors': 'MD Ashik Rezwan, Edgar S. Oliveira, Philipp Zißner, Sean Kloth, Clayson Celes, Peter Sevenich, Bruno Santos, Rodolfo Meneguette e Paulo H. L. Rettore',
+        'iscc-paper-2-title': 'Conflict Resolution in Train Timetabling Using Alternative Graphs and Deep Q-Networks',
+        'iscc-paper-2-authors': 'Shruthi Devaraj, Luis H. C. Reis, Philipp Zißner, Sean Kloth, Clayson Celes, Peter Sevenich, Bruno Santos, Daniel F. Macedo, José Marcos S. Nogueira e Paulo H. L. Rettore',
+
         // Presentations - WebMedia 2025
         'presentation-1-title': 'Novembro de 2025 - WebMedia 2025',
         'presentation-1-date': 'Novembro 2025',
@@ -307,6 +317,16 @@ const translations = {
         'sbrc-workshop-paper-1-authors': 'João Victor S. Coelho, Victor S. Cardel, Paulo H. L. Rettore, Daniela B. Claro, Bruno Santos',
         'presentation-sbrc-funding': 'Support:',
         'presentation-sbrc-funding-text': 'CNPq - National Council for Scientific and Technological Development (CNPq) [444077/2024-3, 407568/2025-5], and FAPESP (São Paulo Research Foundation), together with the Internet Steering Committee in Brazil (CGI.br) [2018/23097-3, 2020/05182-3 and 2025/00513-5].',
+
+        // Presentations - ISCC 2026
+        'presentation-iscc2-title': 'June 2026 - ISCC 2026',
+        'presentation-iscc2-date': 'June 2026',
+        'presentation-iscc2-intro': 'The SiR.AI project was represented at the 31st IEEE Symposium on Computers and Communications (ISCC 2026), with two scientific papers accepted and presented. The works address scalability challenges in software-defined wireless networks under mobility and train timetabling optimization using deep reinforcement learning, reflecting the breadth and impact of the research developed within the project.',
+        'presentation-iscc2-papers': 'Papers presented:',
+        'iscc-paper-1-title': 'Scalability and Resilience Challenges in SDWN: Investigating OpenFlow in Dynamic Scenarios',
+        'iscc-paper-1-authors': 'MD Ashik Rezwan, Edgar S. Oliveira, Philipp Zißner, Sean Kloth, Clayson Celes, Peter Sevenich, Bruno Santos, Rodolfo Meneguette and Paulo H. L. Rettore',
+        'iscc-paper-2-title': 'Conflict Resolution in Train Timetabling Using Alternative Graphs and Deep Q-Networks',
+        'iscc-paper-2-authors': 'Shruthi Devaraj, Luis H. C. Reis, Philipp Zißner, Sean Kloth, Clayson Celes, Peter Sevenich, Bruno Santos, Daniel F. Macedo, José Marcos S. Nogueira and Paulo H. L. Rettore',
 
         // Presentations - WebMedia 2025
         'presentation-1-title': 'November 2025 - WebMedia 2025',
